@@ -60,7 +60,7 @@ class Search extends React.Component {
                 className='with-gap'
                 name='type'
                 type='radio'
-                data-type='movies'
+                data-type='movie'
                 onChange={this.handleFilter}
                 checked={this.state.type === "movie"}
               />
